@@ -1,0 +1,37 @@
+# Original single-cell data and generated caches
+*.rds
+*.RDS
+*.rda
+*.RData
+*.h5
+*.h5ad
+*.h5seurat
+*.loom
+*.mtx
+*.mtx.gz
+/data/
+/cache/
+
+# Local annotation edits and exported analysis results
+/annotation-history.csv
+/annotation-history.csv.lock
+/results/
+/exports/
+/outputs/
+
+# R session state and local configuration
+.Rhistory
+.Ruserdata
+.Rproj.user/
+.Renviron
+.Renviron.*
+.env
+.env.*
+!.env.example
+
+# System and temporary files
+.DS_Store
+*.log
+*.tmp
+*.swp
+*~
